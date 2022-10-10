@@ -52,7 +52,7 @@ $ python3 queenbee.py -s "1000"
 [*] SEARCHING FOR 1000...
 [!] FOUND 1000.cpp (PATH: QUEENBEE/ex/1000/1000.cpp)
 ====================================================
-/* QUEENBEE: gitlink */
+/* QUEENBEE: https://github.com/entr0pie/QUEENBEE */
 // Date: 2022-10-10
 // Source: https://www.beecrowd.com.br/judge/en/problems/view/1000
 // Author: John Doe 
@@ -80,7 +80,7 @@ $ python3 queenbee.py -c
 [*] Contact (Github link or Email): johndoe@gmail.com
 
 ======================================================
-""" QUEENBEE: gitlink """
+""" QUEENBEE: https://github.com/entr0pie/QUEENBEE """
 # Date: 2022-10-10
 # Source: https://www.beecrowd.com.br/judge/en/problems/view/1000
 # Author: John Doe
