@@ -48,7 +48,7 @@ python3 installer.py
 ### Consulting an exercise:
 
 ```
-$ python3 queenbee.py -s "1000"
+$ python3 queenbee.py --search 1000
 [*] SEARCHING FOR 1000...
 [!] FOUND 1000.cpp (PATH: QUEENBEE/ex/1000/1000.cpp)
 ====================================================
@@ -73,7 +73,7 @@ int main() {
 
 ### Adding a new resolution:
 ```
-$ python3 queenbee.py -c
+$ python3 queenbee.py --create
 [*] Link of the exercise: https://www.beecrowd.com.br/judge/en/problems/view/1000
 [*] File name: Desktop/helloworld.py
 [*] Your name: John Doe
