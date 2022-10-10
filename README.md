@@ -146,7 +146,7 @@ Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contr
 
 ## 📝 License
 
-This project is under GNU General License. More information [here](LICENSE.md).
+This project is under GNU General License. More information [here](LICENSE).
 
 
 [⬆ Back to the top](#QueenBee)<br>
