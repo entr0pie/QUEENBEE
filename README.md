@@ -102,7 +102,7 @@ $ python3 queenbee.py -c
 4. Send it to the original branch: `git push origin QueenBee / branch`
 5. Create pull request
 
-As an alternative, search for pull solicitations on[Github Oficial Docs](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+As an alternative, search for pull solicitations on [Github Oficial Docs](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 <!--
 ## 🤝 Colaboradores
@@ -142,10 +142,11 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 ## 😄 Seja um dos contribuidores<br>
 
 Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
-
-## 📝 Licença
-
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 -->
+
+## 📝 License
+
+This project is under GNU License. More information [here](LICENSE.md).
+
 
 [⬆ Voltar ao topo](#nome-do-projeto)<br>
