@@ -146,7 +146,7 @@ Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contr
 
 ## 📝 License
 
-This project is under GNU License. More information [here](LICENSE.md).
+This project is under GNU General License. More information [here](LICENSE.md).
 
 
 [⬆ Voltar ao topo](#nome-do-projeto)<br>
