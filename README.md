@@ -3,13 +3,16 @@
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 <!---Incrível trabalho do iuricode. Por favor, dá um confere: https://github.com/iuricode/readme-template --->
 
+<!--
 ![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
+
 <img src="exemplo-image.png" alt="exemplo imagem">
+-->
 
 > A tool to search, add and store [Beecrowd](https://www.beecrowd.com.br/judge/en) exercise resolutions. 
 
@@ -49,7 +52,7 @@ $ python3 queenbee.py -s "1000"
 [*] SEARCHING FOR 1000...
 [!] FOUND 1000.cpp (PATH: QUEENBEE/ex/1000/1000.cpp)
 ====================================================
-/* BEECROWN: gitlink */
+/* QUEENBEE: gitlink */
 // Date: 2022-10-10
 // Source: https://www.beecrowd.com.br/judge/en/problems/view/1000
 // Author: John Doe 
@@ -77,11 +80,11 @@ $ python3 queenbee.py -c
 [*] Contact (Github link or Email): johndoe@gmail.com
 
 ======================================================
-""" BEECROWN: gitlink """
+""" QUEENBEE: gitlink """
 # Date: 2022-10-10
 # Source: https://www.beecrowd.com.br/judge/en/problems/view/1000
-# Author: Caio Henrique Porcel
-# Contact: <caiohporcel@gmail.com>
+# Author: John Doe
+# Contact: <johndoe@gmail.com>
 # Name: BEE 1000
 ======================================================
 
