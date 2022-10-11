@@ -11,7 +11,7 @@
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 -->
 
-<img src="queenbee.png" alt="Queenbee Help Text">
+<img src=".queenbee.png" alt="Queenbee Help Text">
 
 
 > A tool to search, add and store [Beecrowd](https://www.beecrowd.com.br/judge/en) exercise resolutions. 
