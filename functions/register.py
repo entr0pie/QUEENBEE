@@ -64,7 +64,7 @@ class RegisterExercise:
                 closeTag = dictExt[extension][2]
                 self.endfile = extension
 
-        header  = f"{openTag} BEECROWN: github.com/entr0pie/QUEENBEE {closeTag}\n"
+        header  = f"{openTag} QUEENBEE: github.com/entr0pie/QUEENBEE {closeTag}\n"
         header += f"{commentTag} Date: {str(date.today())}\n"
         header += f"{commentTag} Source: {self.link}\n"
         header += f"{commentTag} Author: {self.name}\n"
