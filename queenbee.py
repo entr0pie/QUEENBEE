@@ -30,7 +30,6 @@ for cmd in search:
 
 
 """ REGISTER SECTION """
-
 register = ["-r", "--register"]
 for cmd in register:
     if cmd in sys.argv:
