@@ -11,87 +11,55 @@
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 -->
 
-<img src=".queenbee.png" alt="Queenbee Help Text">
-
+<img src="images/queenbee.png" alt="Queenbee Help Text">
 
 > A tool to search, add and store [Beecrowd](https://www.beecrowd.com.br/judge/en) exercise resolutions. 
 
 The project is still under development and the next updates will focus on the following tasks:
 
-- [ ] Adding EXCEPTIONS on creation's tool (e.g. Invalid file)
-- [ ] Adding OTHER FUNCTIONS (SEARCH, DELETE, GIT)
-- [ ] Implement OTHER LANGUAGES (Java, Kotlin, C#, etc.)
+- [ ] Sync with github repository without downloading all files (aka push without pull);
+- [ ] Refactor CREATION MODE;
 
 ## 💻 Prerequisites
 
 Before you start, make sure you've met the following requirements:
-* Python 3.7 or higher
+* Python 3.7 or higher;
+* Colorama, BeautifulSoup4, Requests:
+```
+pip install colorama
+pip install beautifulsoup4
+pip install requests
+```
 
 ## 🚀 Instaling QueenBee
 
 Linux e macOS:
 ```
-git clone <link>
+git clone https://github.com/entr0pie/QUEENBEE
 cd QueenBee
 python3 installer.py
+rm installer.py
 ```
 
 Windows:
 ```
-git clone <link>
+git clone https://github.com/entr0pie/QUEENBEE
 chdir QueenBee
 python3 installer.py
+del installer.py
 ```
 
 ## ☕ Using QueenBee
 
 ### Consulting an exercise:
-
-```
-$ python3 queenbee.py --search 1000
-[*] SEARCHING FOR 1000...
-[!] FOUND 1000.cpp (PATH: QUEENBEE/ex/1000/1000.cpp)
-====================================================
-/* QUEENBEE: https://github.com/entr0pie/QUEENBEE */
-// Date: 2022-10-10
-// Source: https://www.beecrowd.com.br/judge/en/problems/view/1000
-// Author: John Doe 
-// Contact: <johndoe@gmail.com>
-// Name: BEE 1000
------------------------------------------------------
-
-#include <stdio.h>
-
-int main() {
-  printf("Hello World!");
-  return 0;
-}
-
------------------------------------------------------
-=====================================================
-```
+<img src="images/search.png" alt="Search function in QueenBee">
 
 ### Adding a new resolution:
-```
-$ python3 queenbee.py --create
-[*] Link of the exercise: https://www.beecrowd.com.br/judge/en/problems/view/1000
-[*] File name: Desktop/helloworld.py
-[*] Your name: John Doe
-[*] Contact (Github link or Email): johndoe@gmail.com
+<img src="images/register.png" alt="Register Hello World Exercise">
 
-======================================================
-""" QUEENBEE: https://github.com/entr0pie/QUEENBEE """
-# Date: 2022-10-10
-# Source: https://www.beecrowd.com.br/judge/en/problems/view/1000
-# Author: John Doe
-# Contact: <johndoe@gmail.com>
-# Name: BEE 1000
-======================================================
+### Getting the exercise prompt:
+<img src="images/info.png" alt="Anyone can explain to me how to do this?">
 
-[?] Ok? [Y/n] Y
-[OK] Writing...
-```
-<!-- Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus! -->
 
 ## 📫 Contributing with QueenBee
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
