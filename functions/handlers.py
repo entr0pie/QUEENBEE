@@ -58,6 +58,18 @@ class RegisterHandler (CommandHandler):
         return {"path":filePath}
 
 
+class InfoHandler (CommandHandler):
+    def gen_config(self):
+        i = self.args.index(self.cmd)
+        try:
+            number = self.args[i + 1]
+        
+        except IndexError:
+            print(f"{C.error} Please inform the exercise number. ")
+            sys.exit(1)
+
+        return {"number": number}
+
 
 
 

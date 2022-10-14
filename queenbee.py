@@ -5,9 +5,12 @@ from datetime import datetime
 from colorama import Fore, Style
 
 from functions.help import help_text
+from functions.handlers import InfoHandler, RegisterHandler, SearchHandler
 from functions.search import BeeSearch
-from functions.handlers import RegisterHandler, SearchHandler
 from functions.register import RegisterExercise
+
+from functions.info.saveinfo import GetInfo
+from functions.info.showinfo import ShowInfo
 
 """ DISPLAY HELP """
 if len(sys.argv) == 1:
@@ -37,3 +40,17 @@ for cmd in register:
         handler = RegisterHandler(cmd, sys.argv)
         settings = handler.gen_config()
         RegisterExercise(settings["path"])
+
+
+info = ["-i", "--info"]
+for cmd in info:
+    if cmd in sys.argv:
+        print(f"({Fore.MAGENTA}INFO MODE{Style.RESET_ALL})")
+        handler = InfoHandler(cmd, sys.argv)
+        settings = handler.gen_config()
+        S = GetInfo(settings["number"])
+        content = S.get_text()
+        content = S.parse_content(content)
+        info = ShowInfo()
+        info.show_info(content)
+        sys.exit(0)

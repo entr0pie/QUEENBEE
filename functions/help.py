@@ -16,6 +16,7 @@ def help_text():
     text += "     -r | --register path  Register a new solution.\n"
     text += "     -s | --search term    Search for an specific exercise\n"
     text += "                             (ex: python3 queenbee.py -s 1084)\n"
+    text += "     -i | --info number    Search for the exercise on BeeCrowd Database.\n"
     text += "\n---------------------------------------------------------------------------------\n\n"
     text += f"  {Fore.CYAN}OPTIONS:{Style.RESET_ALL}\n"
     text += "   [SEARCH SECTION]         [DESCRIPTION]\n"

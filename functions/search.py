@@ -30,14 +30,14 @@ class BeeSearch:
         """ BUSCA NOS ARQUIVOS LOCAIS """
         print(f"{C.info} SEARCHING FOR {self.fileName}...")
 
-        folderExists = path.exists(f"ex/{self.fileName}")
+        folderExists = path.exists(f"repo/{self.fileName}")
         
         if folderExists:
-            files = listdir(f"ex/{self.fileName}")
+            files = listdir(f"repo/{self.fileName}")
             
             if len(files) > 1:
                 # TODO: Make select for more than one option;
-                found_text = f"{C.win} FOUND {files[0]} (PATH: QUEENBEE/ex/{self.fileName}/{files[0]})\n"
+                found_text = f"{C.win} FOUND {files[0]} (PATH: QUEENBEE/repo/{self.fileName}/{files[0]})\n"
                 print(found_text)
 
                 script = open(f"ex/{self.fileName}/{files[0]}", 'r')
@@ -91,7 +91,7 @@ class BeeSearch:
                 ext = json.loads(extDict)
 
                 for key in ext:
-                    link = f"https://raw.githubusercontent.com/entr0pie/QUEENBEE/main/QUEENBEE/ex/{namefile}/{namefile}{key}"
+                    link = f"https://raw.githubusercontent.com/entr0pie/QUEENBEE/main/QUEENBEE/repo/{namefile}/{namefile}{key}"
                     isValid = self.__verifylink__(link)
                     if isValid:
                         self.extension = key

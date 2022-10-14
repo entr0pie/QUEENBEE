@@ -1,6 +1,5 @@
 #!/bin/python3
 import json
-from matplotlib.dates import SA
 
 import requests
 from bs4 import BeautifulSoup
@@ -23,7 +22,7 @@ HEADERS = {
 "TE": "trailers"
 }
 
-class SaveInfo:
+class GetInfo:
     def __init__(self, number: str):
         self.number = number
         self.link = f"https://www.beecrowd.com.br/judge/pt/problems/view/{number}"
@@ -73,6 +72,8 @@ class SaveInfo:
         with open(f"repo/info/{self.number}.json", "w") as file:
             file.write(jsonify)
 
+        return f"repo/info/{self.number}.json"
+
 
     def __getContentByClass__(self, nameclass, soup, header="div"):
         content = str(soup.find_all(header, class_ = nameclass))
@@ -80,8 +81,3 @@ class SaveInfo:
         soup_content = BeautifulSoup(content, 'html.parser')
         return soup_content.get_text()
 
-
-s = SaveInfo("1000")
-text = s.get_text()
-dict = s.parse_content(text)
-s.write_in_file(dict)

@@ -15,8 +15,8 @@ class RegisterExercise:
         self.collect_data()
         header = self.create_header()
 
-        system(f"mkdir ex/{self.number}")
-        newFile = open(f"ex/{self.number}/{self.number}{self.endfile}", 'x')
+        system(f"mkdir repo/{self.number}")
+        newFile = open(f"repo/{self.number}/{self.number}{self.endfile}", 'x')
         newFile.write(header)
         newFile.write(self.fileContent)
     
@@ -49,8 +49,13 @@ class RegisterExercise:
         
         
         self.number = self.link[-4] + self.link[-3] + self.link[-2] + self.link[-1]
-        self.name = input(f"{C.info} Your name: ").strip()
-        self.contact = input(f"{C.info} Contact (Github link or Email): ").strip()
+        
+        with open("user-info/info.json") as file:
+            content = file.read()
+            content = json.loads(content)
+
+        self.name = content["name"]
+        self.contact = content["github"]
 
     def create_header(self):
         ext = open("functions/extensions.json", 'r')
