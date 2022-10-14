@@ -9,10 +9,10 @@ from functions.handlers import InfoHandler, RegisterHandler, SearchHandler
 from functions.search import BeeSearch
 from functions.register import RegisterExercise
 
-from functions.info.saveinfo import GetInfo
+from functions.info.getinfo import GetInfo
 from functions.info.showinfo import ShowInfo
 
-""" DISPLAY HELP """
+""" HELP SECTION """
 if len(sys.argv) == 1:
     help_text()
     sys.exit(1)
@@ -41,7 +41,7 @@ for cmd in register:
         settings = handler.gen_config()
         RegisterExercise(settings["path"])
 
-
+""" INFO SECTION """
 info = ["-i", "--info"]
 for cmd in info:
     if cmd in sys.argv:

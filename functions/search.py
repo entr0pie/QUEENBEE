@@ -35,12 +35,12 @@ class BeeSearch:
         if folderExists:
             files = listdir(f"repo/{self.fileName}")
             
-            if len(files) > 1:
+            if len(files) >= 1:
                 # TODO: Make select for more than one option;
                 found_text = f"{C.win} FOUND {files[0]} (PATH: QUEENBEE/repo/{self.fileName}/{files[0]})\n"
                 print(found_text)
 
-                script = open(f"ex/{self.fileName}/{files[0]}", 'r')
+                script = open(f"repo/{self.fileName}/{files[0]}", 'r')
                 content = script.read()
                 
                 F.showFile(content)
