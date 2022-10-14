@@ -102,7 +102,7 @@ class BeeSearch:
                     sys.exit(1)
                         
             else:
-                link = f"https://raw.githubusercontent.com/entr0pie/QUEENBEE/main/QUEENBEE/ex/{namefile}/{namefile}{extension}"
+                link = f"https://raw.githubusercontent.com/entr0pie/QUEENBEE/main/QUEENBEE/ex/{namefile}/{namefile}{self.extension}"
                 isValid = self.__verifylink__(link)
                 if not isValid: 
                     print(f"{C.error} ERROR: COULD NOT FIND {self.fileName} IN THE OFICIAL REPOSITORY")
