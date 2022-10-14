@@ -51,13 +51,13 @@ del installer.py
 
 ## ☕ Using QueenBee
 
-### Consulting an exercise:
+### ❓ Consulting an exercise:
 <img src="images/search.png" alt="Search function in QueenBee">
 
-### Adding a new resolution:
+### ❗ Adding a new resolution:
 <img src="images/register.png" alt="Register Hello World Exercise">
 
-### Getting the exercise prompt:
+### 🖊️ Getting the exercise prompt:
 <img src="images/info.png" alt="Anyone can explain to me how to do this?">
 
 
