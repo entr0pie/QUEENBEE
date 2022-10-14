@@ -62,7 +62,7 @@ del installer.py
 <img src="images/info.png" alt="Anyone can explain to me how to do this?">
 
 
-## 📫 Contributing with QueenBee
+## 🐝 Contributing with QueenBee
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
 The best way to help the project is **increasing the database!** Any question that you've done (in any language!) can be added to QUEENBEE repository:
 1. Register the exercise:
