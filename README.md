@@ -17,6 +17,7 @@
 
 The project is still under development and the next updates will focus on the following tasks:
 
+- [ ] Create an in-application update (pull, add, commit, push) mechanism;
 - [ ] Sync with github repository without downloading all files (aka push without pull);
 - [ ] Refactor CREATION MODE;
 
@@ -63,7 +64,24 @@ del installer.py
 
 ## 📫 Contributing with QueenBee
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
+The best way to help the project is **increasing the database!** Any question that you've done (in any language!) can be added to QUEENBEE repository:
+1. Register the exercise:
+```
+python3 queenbee.py --register my_exercise.py
+```
+2. Update the local-repo:
+```
+git pull 
+```
 
+3. Add and push your new exercise!
+```
+git add .
+git commit -m "My new exercise its done!"
+git push 
+```
+
+<!---
 1. Fork this repository.
 2. Create an branch: `git checkout -b branch`.
 3. Do your modifications and confirm: `git commit -m message`
@@ -71,7 +89,7 @@ del installer.py
 5. Create pull request
 
 As an alternative, search for pull solicitations on [Github Oficial Docs](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
-
+--->
 <!--
 ## 🤝 Colaboradores
 
