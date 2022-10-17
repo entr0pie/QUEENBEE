@@ -67,7 +67,7 @@ del installer.py
 The best way to help the project is **increasing the database!** Any question that you've done (in any language!) can be added to QUEENBEE repository:
 1. Register the exercise:
 ```
-python3 queenbee.py --register my_exercise.py
+python3 queenbee.py --register my_exercise.rs
 ```
 2. Update the local-repo:
 ```
